@@ -1,0 +1,12 @@
+{{ if .Params.education }}
+<div class="education-section">
+  {{ range .Params.education }}
+  <div class="education-item">
+    <h3>{{ .area }}</h3>
+    <p><strong>{{ .institution }}</strong></p>
+    <p>{{ .date_start | dateFormat "Jan 2006" }} – {{ with .date_end }}{{ . | dateFormat "Jan 2006" }}{{ else }}Present{{ end }}</p>
+    <p>{{ .summary }}</p>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

@@ -26,7 +26,10 @@ role: Ph.D. Student in Electrical Engineering
 organizations:
   - name: Stanford University
     url: https://www.stanford.edu/
-
+  - name: Body MRI group
+    url: https://med.stanford.edu/bmrgroup.html
+  - name: Machine Intelligence in Medicine group
+    url: https://med.stanford.edu/mimi.html
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
@@ -50,31 +53,32 @@ interests:
   - Medical Image Analysis
   - Generative Models
 
+
 # Education to show in About widget
 education:
   - area: Ph.D., Electrical Engineering
     institution: Stanford University
     date_start: 2023-01-01
-    # date_end: 2027-01-01
-    summary: |
-      Focused on research in machine learning and medical imaging.
-  - area: M.Sc., Electrical and Electronics Engineering
+    # date_end: # Omit if ongoing
+    logo: stanford-logo.png
+    # summary: |
+    #   Focused on research in machine learning and medical imaging.
+  - area: M.Sc., Electrical-Electronics Engineering
     institution: Bilkent University
     date_start: 2020-01-01
     date_end: 2023-01-01
-    summary: |
-      Worked on advanced machine learning methods.
-  - area: B.Sc., Electrical and Electronics Engineering
+    logo: bilkent-logo.png
+    # summary: |
+    #   Worked on advanced machine learning methods.
+  - area: B.Sc., Electrical-Electronics Engineering
     institution: Bilkent University
     date_start: 2016-01-01
     date_end: 2020-01-01
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - Signal Processing
-      - Computer Vision
-      - Machine Learning
+    logo: bilkent-logo.png
+    # summary: |
+    #   GPA: 3.77/4.0
+
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
