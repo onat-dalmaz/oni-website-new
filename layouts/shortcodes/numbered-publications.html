@@ -1,0 +1,9 @@
+{{ $counter := 0 }}
+{{ range .Pages }}
+  {{ $counter = add $counter 1 }}
+  <div class="publication-item">
+    <span class="publication-number">{{ $counter }}.</span>
+    <h2>{{ .Title }}</h2>
+    <p>{{ .Summary }}</p>
+  </div>
+{{ end }}

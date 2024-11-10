@@ -4,9 +4,33 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: Hugo Academic CV Theme
+title: Onat Dalmaz
+# theme: hugo-theme-notrack
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://onatdalmaz.com/'
+
+appearance:
+  mode: system
+  color: blue
+
+
+params:
+  style:
+    # Primary color (e.g., links, buttons)
+    primary: "#3498db"  # Replace with your preferred primary color
+
+    # Background color
+    background: "#ffffff"  # Replace with your desired background color
+
+    # Accent color
+    accent: "#e67e22"  # Replace with your preferred accent color
+
+    # Text color
+    text: "#333333"  # Customize text color
+
+
+#change the theme to academic
+# theme: blue
 
 ############################
 ## LANGUAGE
