@@ -1,9 +1,14 @@
 ---
-title: "BolT: Fused Window Transformers for fMRI Time Series Analysis"
+title: "Learning Fourier-Constrained Diffusion Bridges for MRI Reconstruction"
 authors:
-- Hasan Atakan Bedel
-- Irmak Sivgin
+#Muhammad U. Mirza and Onat Dalmaz and Hasan A. Bedel and Gokberk Elmas and Yilmaz Korkmaz and Alper Gungor and Salman UH Dar and Tolga Çukur
+- 
+- Muhammad U. Mirza
 - admin
+- Hasan A. Bedel
+- Gokberk Elmas
+- Yilmaz Korkmaz
+- Alper Gungor
 - Salman Dar
 - Tolga Cukur
 
@@ -23,7 +28,7 @@ publication_types: ["3"]
 publication: "*under review, Medical Image Analysis*"
 publication_short: "under review, MEDIA"
 
-abstract: Deep-learning models have enabled performance leaps in analysis of high-dimensional functional MRI (fMRI) data. Yet, many previous methods are suboptimally sensitive for contextual representations across diverse time scales. Here, we present BolT, a blood-oxygen-level-dependent transformer model, for analyzing multi-variate fMRI time series. BolT leverages a cascade of transformer encoders equipped with a novel fused window attention mechanism. Encoding is performed on temporally-overlapped windows within the time series to capture local representations. To integrate information temporally, cross-window attention is computed between base tokens in each window and fringe tokens from neighboring windows. To gradually transition from local to global representations, the extent of window overlap and thereby number of fringe tokens are progressively increased across the cascade. Finally, a novel cross-window regularization is employed to align high-level classification features across the time series. Comprehensive experiments on large-scale public datasets demonstrate the superior performance of BolT against state-of-the-art methods. Furthermore, explanatory analyses to identify landmark time points and regions that contribute most significantly to model decisions corroborate prominent neuroscientific findings in the literature.
+abstract: Deep generative models have gained recent traction in accelerated MRI reconstruction. Diffusion priors are particularly promising given their representational fidelity. Instead of the target transformation from undersampled to fully-sampled data required for MRI reconstruction, common diffusion priors are trained to learn a task-agnostic transformation from an asymptotic start-point of Gaussian noise onto the finite end-point of fully-sampled data. During inference, data-consistency projections are injected in between reverse diffusion steps to reach a compromise solution within the span of both the trained diffusion prior and the imaging operator for an accelerated MRI acquisition. Unfortunately, performance losses can occur due to the discrepancy between target and learned transformations given the asymptotic normality assumption in diffusion priors. To address this discrepancy, here we introduce a novel Fourier-constrained diffusion bridge (FDB) for MRI reconstruction that transforms between a finite start-point of moderately undersampled data and an end-point of fully-sampled data. We derive the theoretical formulation of FDB as a generalized diffusion process based on a stochastic degradation operator that performs random spatial-frequency removal. We propose an enhanced sampling algorithm with a learned correction term for soft dealiasing across reverse diffusion steps. Demonstrations on brain MRI indicate that FDB outperforms state-of-the-art methods including non-diffusion and diffusion priors.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
