@@ -44,11 +44,12 @@ profiles:
 
 # Interests to show in About widget
 interests:
-  - Compressed & Computational MRI
-  - Signal Processing for Machine Learning
+  - Signal Processing
+  - Machine Learning
   - Generative & Diffusion Models
   - Inverse Problems
   - Uncertainty Quantification
+  - Compressed & Computational MRI
 
 # Education to show in About widget
 education:
