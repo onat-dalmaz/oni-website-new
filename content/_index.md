@@ -30,28 +30,28 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      page_type: post
-      count: 5
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      offset: 0
-      order: desc
-    design:
-      view: compact  # Use a compact view or create a custom view.
-      spacing:
-        padding: [0, 0, 0, 0]  # Reduce padding for more compact spacing.
+  # - block: collection
+  #   id: news
+  #   content:
+  #     title: Recent News
+  #     subtitle: ''
+  #     text: ''
+  #     page_type: post
+  #     count: 5
+  #     filters:
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     offset: 0
+  #     order: desc
+  #   design:
+  #     view: compact  # Use a compact view or create a custom view.
+  #     spacing:
+  #       padding: [0, 0, 0, 0]  # Reduce padding for more compact spacing.
 
   # - block: markdown
   #   content:
