@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Ph.D. Student in Electrical Engineering
+role: Ph.D. Candidate · Machine Learning & Signal Processing
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -124,4 +124,14 @@ awards:
 
 ## About Me
 
-I am a 2nd year Ph.D. student in Electrical Engineering at Stanford University, advised by [Brian Hargreaves](https://med.stanford.edu/profiles/brian-hargreaves#bio) and [Akshay Chaudhari](https://profiles.stanford.edu/akshay-chaudhari). I received my M.Sc. and B.Sc. in Electrical and Electronics Engineering at Bilkent University, where I was fortunate to work with [Tolga Cukur](http://kilyos.ee.bilkent.edu.tr/~cukur/). My interests lie in the intersection of machine learning, signal processing, computational MR imaging, and healthcare. Recently, I've been working on developing mathematical tools to improve explainability of image reconstruction algorithms.
+I am a Ph.D. candidate in Electrical Engineering at Stanford University, co-advised by
+[Brian Hargreaves](https://med.stanford.edu/profiles/brian-hargreaves#bio) and
+[Akshay Chaudhari](https://profiles.stanford.edu/akshay-chaudhari).
+Previously, I earned my M.Sc. and B.Sc. at Bilkent University under
+[Tolga Cukur](http://kilyos.ee.bilkent.edu.tr/~cukur/).
+
+My research sits at the intersection of machine learning, signal processing, and
+computational MRI. I design probabilistic tools that turn
+high-dimensional inverse problems into tractable uncertainty-quantification
+tasks. The goal is to make deep image‐reconstruction models both
+explainable and reliable for clinical decision making.
