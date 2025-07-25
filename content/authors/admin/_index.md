@@ -44,11 +44,11 @@ profiles:
 
 # Interests to show in About widget
 interests:
-  - AI for healthcare
-  - Signal Processing
-  - Computational MRI
-  - Medical Image Analysis
-  - Generative Models
+  - Compressed & Computational MRI
+  - Signal Processing for Machine Learning
+  - Generative & Diffusion Models
+  - Inverse Problems
+  - Uncertainty Quantification
 
 # Education to show in About widget
 education:
