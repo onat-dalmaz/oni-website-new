@@ -38,6 +38,7 @@
       "path",
       "polygon",
       "pre",
+      "rect",
       "script",
       "section",
       "source",
@@ -46,6 +47,7 @@
       "style",
       "summary",
       "svg",
+      "text",
       "time",
       "title",
       "ul"
