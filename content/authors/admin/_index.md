@@ -125,14 +125,6 @@ awards:
 
 ## About Me
 
-I am a Ph.D. candidate in Electrical Engineering at Stanford University, co-advised by
-[Brian Hargreaves](https://med.stanford.edu/profiles/brian-hargreaves#bio) and
-[Akshay Chaudhari](https://profiles.stanford.edu/akshay-chaudhari).
-Previously, I earned my M.Sc. and B.Sc. at Bilkent University under
-[Tolga Cukur](http://kilyos.ee.bilkent.edu.tr/~cukur/).
+I am a Ph.D. candidate in Electrical Engineering at Stanford University, co-advised by [Brian Hargreaves](https://med.stanford.edu/profiles/brian-hargreaves#bio) and [Akshay Chaudhari](https://profiles.stanford.edu/akshay-chaudhari). Previously, I earned my M.Sc. and B.Sc. at Bilkent University under [Tolga Cukur](http://kilyos.ee.bilkent.edu.tr/~cukur/).
 
-My research sits at the intersection of machine learning, signal processing, and
-computational MRI. I design probabilistic tools that turn
-high-dimensional inverse problems into tractable uncertainty-quantification
-tasks. The goal is to make deep image‐reconstruction models both
-explainable and reliable for clinical decision making.
+My work sits at the intersection of machine learning and signal processing, focused on solving hard inverse problems when data is limited and stakes are high. I develop probabilistic, model-aware methods that make learning-based systems more reliable—by quantifying uncertainty, improving robustness, and exposing failure modes. I’m especially motivated by impactful applications in imaging and healthcare, including computational MRI.
