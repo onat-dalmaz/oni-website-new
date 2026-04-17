@@ -141,14 +141,18 @@
       <ul class="">
         {{ range . }}
         {{ $inst := lower (.institution | default "") }}
-        {{ $iconName := "academic-cap" }}
+        {{ $logo := "" }}
         {{ if in $inst "stanford" }}
-          {{ $iconName = "custom/stanford" }}
+          {{ $logo = resources.Get "media/icons/custom/stanford.svg" }}
         {{ else if in $inst "bilkent" }}
-          {{ $iconName = "custom/bilkent" }}
+          {{ $logo = resources.Get "media/icons/custom/bilkent.png" }}
         {{ end }}
         <li class="flex items-start gap-3">
-          {{ partial "functions/get_icon" (dict "name" $iconName "attributes" "style=\"\" class='flex-shrink-0 w-5 h-5 me-2 mt-1'") }}
+          {{ if $logo }}
+          <img src="{{ $logo.RelPermalink }}" alt="{{ .institution }} logo" class="flex-shrink-0 w-5 h-5 me-2 mt-1 object-contain" />
+          {{ else }}
+          {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "style=\"\" class='flex-shrink-0 w-5 h-5 me-2 mt-1'") }}
+          {{ end }}
           <div class="description">
             <p class="course">{{ .area }}{{ with .year }}, {{ . }}{{ end }}</p>
             <p class="text-sm">{{ .institution }}</p>
